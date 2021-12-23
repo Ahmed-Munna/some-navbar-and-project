@@ -1,0 +1,49 @@
+.box1{
+	height: 200px;
+	width: 200px;
+	background:black;
+	position: relative;
+	animation-name: munna;
+	animation-duration: 5s;
+}
+@keyframes munna {
+	0%{
+		background-color:black;
+		left:0;
+		top:0;
+	}
+	25%{
+        background-color: blue;
+        left: 200px;
+        top: 0px
+    }
+	50%{
+		background-color: #ff5200;
+		left: 200px;
+		top:200px;
+
+	}
+	75%{
+		background-color: red;
+		left:0;
+		top:200px;
+	}
+	100%{
+		background-color: green;
+		left: 0;
+		top: 0;
+	}
+}
+.box2{
+	height: 200px;
+	width: 200px;
+	background:red;
+}
+h2{
+	background: red;
+	position: sticky;
+	top:0;
+}
+p{
+	z-index: 500;
+}

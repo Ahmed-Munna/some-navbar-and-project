@@ -1,0 +1,10 @@
+.div1 {
+    height: 300px;
+    width: 300px;
+    background-color: red;
+}
+@media screen and (max-width:400px){
+    .div1{
+        background-color:blue;
+    }
+}

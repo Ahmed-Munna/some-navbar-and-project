@@ -1,0 +1,138 @@
+.display1{
+      display:flex;
+      background:#ddd;
+      padding:20px;
+      flex-direction: column;
+}
+
+.display1 .item{
+     font-size:40px;
+     padding:30px;
+     border:1px solid black;
+     width:100px;
+}
+
+
+
+.display2{
+      display:flex;
+      background:#dd2;
+      padding:20px;
+      flex-direction: column-reverse;
+}
+
+.display2 .item{
+     font-size:40px;
+     padding:30px;
+     border:1px solid black;
+     width:100px;
+}
+
+
+
+
+.display3{
+      display:flex;
+      background:#ddf;
+      padding:20px;
+      flex-direction: row-reverse;
+}
+
+.display3 .item{
+     font-size:40px;
+     padding:30px;
+     border:1px solid black;
+     width:100px;
+}
+
+
+.display4{
+      display:flex;
+      background:#dff;
+      padding:20px;
+     justify-content:center;
+}
+
+.display4 .item{
+     font-size:40px;
+     padding:30px;
+     border:1px solid black;
+     width:100px;
+}
+
+.display5{
+      display:flex;
+      background:#2ff;
+      padding:20px;
+     
+      justify-content: flex-end;
+}
+
+.display5 .item{
+     font-size:40px;
+     padding:30px;
+     border:1px solid black;
+     width:100px;
+}
+
+
+
+.display6{
+      display:flex;
+      background:#7ff;
+      padding:20px;    
+      justify-content: space-between;
+}
+
+.display6 .item{
+     font-size:40px;
+     padding:30px;
+     border:1px solid black;
+     width:100px;
+}
+
+.display7{
+      display:flex;
+      background:#DAf;
+      padding:20px;    
+     flex-wrap: wrap;
+}
+
+.display7 .item{
+     font-size:40px;
+     padding:30px;
+     border:1px solid black;
+     width:100px;
+}
+
+
+.display8{
+      display:flex;
+      background:#DAC;
+      padding:20px;    
+     flex-wrap: wrap-reverse;
+}
+
+.display8 .item{
+     font-size:40px;
+     padding:30px;
+     border:1px solid black;
+     width:100px;
+}
+
+
+.display9{
+      display:flex;
+      background:#DAf;
+      padding:20px;    
+     align-items:center;
+     justify-content:center;
+     height:400px;
+}
+
+.display9 .item{
+     font-size:40px;
+     padding:30px;
+     border:1px solid black;
+     width:100px;
+}

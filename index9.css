@@ -1,0 +1,185 @@
+body{
+	margin:0;
+	padding:0;
+}
+
+ul{
+	background-color:#0F0F70;;
+	list-style:none;
+	overflow:hidden;
+	text-align:center;
+	
+}
+ul li{
+	display:inline-block;
+	 padding:35px 23px;
+
+}
+ul li a{
+	text-decoration:none;
+	font-family:arial black;
+	color:white;
+	text-transform:uppercase;
+    padding:35px 23px;
+    transition:.4s;
+    border-radius:10px;
+
+}
+ul li a:hover{
+	background-color:#ddd;
+}
+
+
+.submenu ul li{
+	display: block;
+    
+}
+.submenu ul {
+  position: absolute;
+  background-color: #FFD662;
+  text-align: left;
+  padding-left: 0px;
+  left: 300px;
+  top: 108px;
+  transform: scaleY(0);
+  transition: 0.6s;
+  transform-origin:top;
+  box-shadow: 0 0 1em;
+}
+.submenu ul li a{
+ 
+}
+.Dropdown:hover .submenu ul{
+	transform: scaleY(1);
+
+
+}
+
+
+
+.submen ul li{
+	display: block;
+    
+}
+.submen ul {
+  position: absolute;
+  background-color: #FFD662;
+  text-align: left;
+  padding-left: 0px;
+  left: 500px;
+  top: 108px;
+  transform: scaleY(0);
+  transition: 0.6s;
+  transform-origin:top;
+  box-shadow: 0 0 1em;
+}
+.submen ul li a{
+ 
+}
+.Dropdown:hover .submen ul{
+	transform: scaleY(1);
+
+
+}
+
+
+
+
+
+
+
+.subme ul li{
+	display: block;
+    
+}
+.subme ul {
+  position: absolute;
+  background-color: #FFD662;
+  text-align: left;
+  padding-left: 0px;
+  left: 700px;
+  top: 108px;
+  transform: scaleY(0);
+  transition: 0.6s;
+  transform-origin:top;
+  box-shadow: 0 0 1em;
+}
+.subme ul li a{
+ 
+}
+.Dropdown:hover .subme ul{
+	transform: scaleY(1);
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.subm ul li{
+	display: block;
+    
+}
+.subm ul {
+  position: absolute;
+  background-color: #FFD662;
+  text-align: left;
+  padding-left: 0px;
+  left: 900px;
+  top: 108px;
+  transform: scaleY(0);
+  transition: 0.6s;
+  transform-origin:top;
+  box-shadow: 0 0 1em;
+}
+.subm ul li a{
+ 
+}
+.Dropdown:hover .subm ul{
+	transform: scaleY(1);
+
+
+}
+
+
+
+
+
+
+
+
+.sub ul li{
+	display: block;
+    
+}
+.sub ul {
+  position: absolute;
+  background-color: #FFD662;
+  text-align: left;
+  padding-left: 0px;
+  left: 1100px;
+  top: 108px;
+  transform: scaleY(0);
+  transition: 0.6s;
+  transform-origin:top;
+  box-shadow: 0 0 1em;
+}
+.sub ul li a{
+ 
+}
+.Dropdown:hover .sub ul{
+	transform: scaleY(1);
+
+
+}

@@ -1,0 +1,18 @@
+.h1{
+	border: 1px solid #000;
+	width:200px;
+	outline-offset:15px;
+}
+.direction p{
+	direction:rtl;
+	unicode-bidi:bidi-override;
+}
+img.top {
+  vertical-align: middle;
+}
+img.middel {
+  vertical-align: top;
+}
+img.bottom {
+  vertical-align: bottom;
+}

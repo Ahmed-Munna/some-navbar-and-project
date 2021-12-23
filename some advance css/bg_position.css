@@ -1,0 +1,19 @@
+body{
+    background-color: aqua;
+}
+.position {
+    width: 400px;
+    height: 400px;
+    background: url(sicle.gif);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: -89px -39px;
+    clip-path: circle(226px at 2% 44%);
+    shape-outside: circle(226px at 2% 44%);
+    shape-margin: 20px;
+    float: left;
+}
+p{
+    line-height: 50px;
+    position: absolute;
+}

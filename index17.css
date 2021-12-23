@@ -1,0 +1,38 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+#nevbar{
+	background-color:darkblue;
+	display:flex;
+	justify-content:flex-end;
+	height:80px;
+	width:100%;
+	align-items:center;
+	overflow:hidden;
+}
+#nevbar ul{
+	text-decoration:none;
+	margin-right:100px;
+}
+#nevbar ul li{
+	display:inline-block;
+
+}
+#nevbar ul li a{
+	text-decoration:none;
+	color:white;
+	font-family:arial black;
+	color:white;
+	padding:30px;
+	font-size:18px;
+	border-radius:10px;
+	text-transform:uppercase;
+	transition:0.4s;
+}
+#nevbar ul li a:hover{
+	background-color:white;
+	color:#444;
+	box-shadow:0 0 15px white;
+}

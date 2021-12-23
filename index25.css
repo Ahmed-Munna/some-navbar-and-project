@@ -1,0 +1,23 @@
+.box{
+width:150px;
+height:150px;
+}
+.top{
+    background:palegreen;
+    position:fixed;
+    z-index:100;
+    top:100px
+}
+
+.center{
+    background:lightblue;
+    position:fixed;
+    z-index:300;
+}
+.bottom{
+    background:salmon;
+    position:fixed;
+    z-index:200;
+    left:100px;
+    top:100px;
+}

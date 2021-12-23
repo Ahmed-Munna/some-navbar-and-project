@@ -1,0 +1,6 @@
+.img{
+	filter: blur(3px);
+}
+.img2{
+	filter: brightness(200%);
+}

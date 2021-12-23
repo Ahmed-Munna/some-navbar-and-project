@@ -1,0 +1,230 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+body{
+	font-family:monospace;
+}
+
+#navbar{
+   width:100%;
+   height:80px;
+   background-color:#100F8C;
+   position:fixed;
+}
+.contanar{
+	width:80%;
+	margin:auto;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.wrapper{
+	width:80%;
+	margin:auto;
+}
+.wrapper .logo{
+   font-size: 35px;
+   color:white;
+   line-height: 80px;
+   font-weight: bold;
+   text-transform: capitalize;
+}
+.wrapper ul{
+	display: flex;
+	flex-direction:row;
+	float: right;
+	list-style:none;
+}
+.wrapper ul li{
+	margin: -50px 10px;
+	font-size: 19px;
+	text-transform: uppercase;
+	font-weight:bold;
+}
+.wrapper ul li a{
+	text-decoration:none;
+	color:white;
+	padding:7px 13px;
+	border-radius:4px;
+	transition:0.5s;
+}
+.wrapper ul li a:hover{
+    background-color:#FFF3EB;
+    color:black;
+}
+
+#check{
+	display: none;
+}
+.checkbox-btn{
+	font-size: 30px;
+	float: right;
+	color:white;
+	cursor:pointer;
+	margin:25px 63px;
+	display: none;
+}
+
+@media only screen and (max-width: 958px){
+
+    .wrapper .logo{
+      font-size: 30px;
+    }
+
+    .wrapper ul li a{
+    	font-size:16px;
+    }
+
+
+
+}
+
+@media only screen and (max-width: 752px){
+
+ .wrapper .logo{
+      font-size: 25px;
+    }
+    .wrapper ul li a{
+    	font-size:15px;
+    	padding:5px 10px;
+
+
+
+    }
+.checkbox-btn{
+	display: block;
+}
+     .wrapper ul{
+     	display: block;
+     	width:40%;
+     	height:100vh;0px;
+     	left:0;
+     	top:12
+
+     }
+
+
+#check:checked~ul{
+	right:60%;
+}
+
+
+}
+
+
+
+
+#mainsection{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.32),rgba(0, 0, 0, 0.75)),url(img1.jpg); 
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 500px;
+
+}
+.head h1 {
+  font-size: 70px;
+  padding-top: 200px;
+  color: white;
+  text-shadow: 2px -6px 5px black;
+}
+.head p {
+  width: 30%;
+  line-height: 30px;
+  color: white;
+}
+@media only screen and (max-width: 958px){
+
+
+#mainsection{
+height: 500px
+  
+
+}
+
+.head h1 {
+
+font-size:60px
+
+}
+
+.head p {
+
+	width: 30%;
+}
+
+
+
+
+
+	
+}
+
+
+
+
+@media only screen and (max-width: 320px){
+
+.singlebox {
+   width:37%:
+   height:20px;
+
+}
+
+
+
+
+
+}
+
+
+
+
+
+.singlebox {
+  width: 22%;
+  float: left;
+  margin-right: 3%;
+  background-color: white;
+  box-shadow: 0 0 1em;
+  transition:0.5s;
+  cursor: pointer;
+}
+.singlebox:hover {
+  background-color: #2C88F8;
+}
+.singlebox:last-child{
+	margin-right: -7px;
+}
+#About{
+	background-color: #FEE1AE;
+	height: 410px;
+}
+.icon {
+  font-size: 50px;
+  text-align: center;
+  padding: 20px 0px;
+  color: rgb(62, 55, 161);
+}
+.singlebox h2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+  padding-bottom: 15px;
+  font-family: arial black;
+}
+.singlebox p {
+  text-align: center;
+  line-height: 25px;
+  font-size: 16px;
+  padding-bottom: 35px;
+}
+#footer{
+	background-color:rgb(0, 0, 90);
+}
+.icon1 {
+  font-size: 40px;
+  text-align: center;
+  color: #ff5;
+}

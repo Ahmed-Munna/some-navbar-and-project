@@ -1,0 +1,109 @@
+*{
+	margin: 0px;
+	padding:0px;
+	text-decoration:none;
+	list-style: none;
+  box-sizing:border-box;
+}
+.nevbar{
+	background:#2C2566;
+	width:100%;
+	height: 80px;
+}
+.logo{
+	font-size:40px;
+	color:white;
+	margin-left: 50px;
+	padding-top: 15px;
+}
+.nevbar ul{
+	float:right; 
+	margin-right:25px;
+    margin-top: -33px;
+}
+section.nevbar ul li {
+  float: left;
+  font-size: 17px;
+  margin-right: 30px;
+  font-weight: bold;
+  display:inline-block;
+}
+section.nevbar ul li a {
+  color: white;
+  text-transform: uppercase;
+  border-radius: 4px;
+}
+a.active, a:hover {
+  background: rgb(150, 156, 178);
+  padding: 5px;
+  transition: .2s;
+}
+.checkboxbtn{
+	font-size: 30px;
+	color: white;
+	float: right;
+	line-height: 80px;
+	margin-right: 40px;
+	cursor:pointer;
+	display: none;
+
+
+}
+#check{
+	display: none;
+}
+
+@media (max-width:952px){
+	.logo{
+
+		font-size: 30px;
+		padding-left: 50px;
+
+	}
+
+
+  .nevbar ul li a{
+  	font-size: 16px;
+  }
+
+}
+@media (max-width: 858px){
+
+
+   .checkboxbtn{
+   	display: block;
+
+   }
+
+
+.nevbar ul{
+   	position:fixed;
+   	width:45%;
+   	height:100vh;
+   	background:#2c3e50;
+   	top:113px;
+   	right:0px;
+   	text-align:center;
+   	transition:all .4s;
+   }
+   
+ section.nevbar ul li{
+ 	display:block;
+    margin-bottom:50px;
+
+ }
+  section.nevbar ul li a{
+  	font-size:20px;
+  	margin-left:90px;
+  }
+  a:hover,a.active{
+  	background:none;
+  	color:#0082e6;
+  }
+
+#check:checked ~ section.nevbar ul li{
+  left:1%;
+	
+}
+
+}

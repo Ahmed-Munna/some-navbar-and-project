@@ -1,0 +1,131 @@
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box;
+  list-style: none;	
+}
+body{
+	font-family: arial black;
+}
+#navbar {
+  height: 80px;
+  width: 100%;
+  background: rgb(33, 19, 80);
+}
+.logo{
+	font-size: 35px;
+	color:white;
+	line-height:80px;
+	width:400px;
+	padding-left:100px;
+}
+#navbar ul{
+    float:right;
+    text-transform:uppercase;
+    list-style:none;
+    margin-right:100px;
+    margin-top:-50px;
+}
+#navbar ul li{
+	display:inline-block;
+	margin:0 10px;
+}
+#navbar ul li a{
+	text-decoration: none;
+	color:white;
+	padding:7px 13px;
+	border-radius:4px;
+}
+.active,a:hover{
+	background: #FF5443;
+    transition:0.4s;
+}
+#check{
+	display: none;
+}
+.checkbox-btn{
+	color: white;
+	font-size: 30px;
+	float: right;
+	margin-right:80px;
+	margin-top: 20px;
+	display: none;
+	cursor:pointer;
+}
+@media only screen and (max-width:958px){
+
+      .logo{
+             font-size:30px;
+             padding-left: 80px;
+      }
+
+     #navbar ul li{
+    	margin: 0 5px;
+    }
+    #navbar ul li a{
+    	font-size: 15px;
+    }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:750px){
+
+
+.checkbox-btn{
+   display:block;
+
+
+}
+    .logo{
+    	font-size: 25px;
+    }
+
+    #navbar ul li{
+    	margin: 0 5px;
+    }
+    #navbar ul li a{
+    	font-size: 15px;
+    }
+
+
+#navbar ul{
+
+	position:fixed;
+	width: 45%;
+	height:100vh;
+	background:#ddd;
+	color:white;
+	top: 130px;
+    display:none;
+	right: -100px;
+	text-align:center;
+	transition:0.5s;
+
+}
+#navbar ul li{
+	display:block;
+	margin:50px 0;
+	line-height:30px;
+}
+#check:checked~ul{
+	display:block;
+}
+}
+
+
+
+
+
+
+}

@@ -1,0 +1,114 @@
+*{
+	margin: 0px;
+	padding:0px;
+	list-style: none;
+	box-sizing: border-box;
+}
+body{
+	font-family:arial black;
+}
+
+.nev{
+	background:#ff5200;
+	height:80px;
+	width:100%;
+	position:fixed;
+}
+.logo{
+	font-size: 35px;
+	padding: 0 100px;
+	line-height: 80px;
+	color: white;
+	width:400px;
+}
+.nev ul {
+  color: black;
+  float: right;
+  margin-right: 50px;
+  margin-top: -50px;
+  text-transform: uppercase;
+}
+.nev ul li{
+	display: inline-block;
+	margin: 0 5px;
+}
+.nev ul li a{
+	padding: 7px 13px;
+	text-decoration:none;
+	color:black;
+	border-radius:4px;
+
+}
+.active, a:hover {
+  background: rgba(151, 53, 7, 0.33);
+  transition: 0.4s;
+}
+#check{
+	display: none;
+}
+label.Checkbox-btn {
+  font-size: 30px;
+  color: black;
+  cursor: pointer;
+  float: right;
+  margin-right: 30px;
+  margin-top: 18px;
+  /* display: none; */
+}
+@media (max-width: 952px){
+
+   .logo{
+   	font-size: 30px;
+   	padding-left: 50px;
+   }
+
+   .nev ul li a{
+   	font-size: 16px;
+   }
+
+
+}
+@media (max-width: 858px){
+
+ .Checkbox-btn{
+ 	 display: block;
+ 	margin-top: 18px;
+ }
+
+ ul{
+ 	position: fixed;
+ 	width: 40%;
+ 	height: 100vh;
+ 	background: #ff5200;
+ 	top: 120px;
+ 	left: 100%;
+ 	text-align: center;
+ 	transition: .5s;
+ }
+
+
+  .nev ul li{
+ 	display: block;
+ 	margin: 50px 0;
+ 	line-height: 30px;
+
+ }
+ .nev ul li a{
+ 	font-size: none;
+ 	color: white;
+ }
+ .active,a:hover{
+ 	background:none;
+ 	color:#0082e6;
+ }
+ #check:checked~ul{
+    left:60%;
+ }
+
+
+
+
+
+
+
+}

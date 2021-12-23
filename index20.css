@@ -1,0 +1,15 @@
+*{ 
+   margin:0;
+   padding:0;
+   box-sizing:border-box;
+   text-decoration:none;
+}
+#navbar{
+   background:#555;
+   width:100%;
+   position:fixed;
+}
+.containar{
+    display:fixed;
+    justify-content:row
+}

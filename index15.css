@@ -1,0 +1,53 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.nevbar{
+    background-color:darkblue;
+    display:flex;
+    height:80px;
+    justify-content:flex-end;
+    align-items:center;
+    padding-right:100px;
+    overflow:hidden;
+    width:100%;
+
+}
+.nevbar ul{
+    list-style:none;
+    color:white;
+    text-transform:uppercase;
+    font-weight:bold;
+    font-family:arial black;
+
+}
+.nevbar ul li{
+    display:inline-block;
+    padding:30px;
+    transition:0.3s;
+    border-radius:10px;
+}
+.nevbar ul li:hover{
+    background-color:#555;
+}
+.nevbar i{
+    font-size:30px;
+    color:white;
+    display:none;
+}
+
+
+@media screen and(min-width:750px){
+
+        .nevbar {
+            background-color:red;
+        }
+
+    .nevbar ul li{
+        padding:0px;
+    }
+
+
+
+}

@@ -1,0 +1,105 @@
+
+/*OUTLINE*/
+.Margin{
+	height: 300px;
+	width:300px;
+	background-color: red;
+	margin: 100px;
+	border: 1px solid black;
+	outline: 5px solid blue ;
+	outline-offset: 40px;
+}
+/*END OUTLINE*/
+
+
+
+/*LIST-STYLE*/
+
+
+.list{
+	list-style:url(img2.jpg) inside;
+}
+
+
+
+
+/*END LIST-STYLE*/
+
+/*position*/
+
+.nevbar{
+	background-color: black;
+	color: white;
+	
+}
+
+
+.nevbar{
+	position:sticky;
+	top: 0;
+}
+
+
+
+
+/* End position*/
+
+/*Float*/
+
+.ban{
+	background:red;
+	padding-left: 40px;
+	text-transform: uppercase;
+	float:left;
+}
+
+.ami{
+	width: 300px;
+	background:blue;
+	padding-left: 40px;
+	text-transform: uppercase;
+	clear: both;
+}
+
+
+
+/*END Float*/
+
+
+/*COMINATOR*/
+
+
+
+div>h3{
+	background-color: red;
+}
+
+div+h3{
+	background-color: blue;
+}
+
+
+
+/*END*/
+
+
+.animation{
+	height:200px;
+	width: 200px;
+	background-color:black;
+	animation-name: munna;
+	animation-duration: 2s; 
+}
+
+@keyframes munna{
+	from{background-color: :black;}
+	to{background-color: blue;}
+}
+
+
+
+
+
+
+
+

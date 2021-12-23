@@ -1,0 +1,52 @@
+*{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+#nevbar{
+  width: 100%;
+  background-color:blue;
+  height: 80px;
+}
+
+#nevbar ul{
+	position:relative;
+	list-style:none;
+	margin-right:80px;
+	overflow:hidden;
+}
+#nevbar ul li{
+	display: inline-block;
+	color:white;
+	text-decoration:none;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin:30px 20px;
+	font-family: arial black;
+	float:right;
+
+
+}
+
+#nevbar ul li a{
+	transition:0.4s;
+}
+
+#nevbar ul li a:hover{
+	background-color:black;
+	color:white;
+	padding:27px;
+	border-radius:10px;
+}
+.submenu{
+	width:250px;
+	background-color:#ff5200;
+	color:white;
+
+}
+.submenu li{
+	display: block;
+	position:absolute;
+}
+

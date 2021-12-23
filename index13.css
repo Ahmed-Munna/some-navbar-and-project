@@ -1,0 +1,174 @@
+.display1{
+   background-color:#ff5300;
+   display:flex;
+   padding:20px;
+   flex-direction: column;
+}
+.display1 .item{
+   font-size:40px;
+   border:1px solid black;
+   padding:30px;
+   width:100px;
+    
+}
+
+
+.display2{
+   background-color:#fff500;
+   display:flex;
+   padding:20px;
+   flex-direction: column-reverse;
+}
+.display2 .item{
+   font-size:40px;
+   border:1px solid black;
+   padding:30px;
+   width:100px;
+    
+}
+
+
+
+.display3{
+   background-color:#fff500;
+   display:flex;
+   padding:20px;
+   flex-direction:row-reverse;
+}
+.display3 .item{
+   font-size:40px;
+   border:1px solid black;
+   padding:30px;
+   width:100px;
+    
+}
+
+
+.display4{
+   background-color:#ffff77;
+   display:flex;
+   padding:20px;
+   flex-direction:row;
+}
+.display4 .item{
+   font-size:40px;
+   border:1px solid black;
+   padding:30px;
+   width:100px;
+    
+}
+
+
+.display4{
+   background-color:#ffff77;
+   display:flex;
+   padding:20px;
+   justify-content:center;
+}
+.display4 .item{
+   font-size:40px;
+   border:1px solid black;
+   padding:30px;
+   width:100px;
+    
+}
+
+
+
+
+.display5{
+   background-color:#FFDf77;
+   display:flex;
+   padding:20px;
+   justify-content: flex-end;
+}
+.display5 .item{
+   font-size:40px;
+   border:1px solid black;
+   padding:30px;
+   width:100px;
+    
+}
+
+
+.display6{
+   background-color:#FFD277;
+   display:flex;
+   padding:20px;
+   justify-content: flex-start;
+}
+.display6 .item{
+   font-size:40px;
+   border:1px solid black;
+   padding:30px;
+   width:100px;
+    
+}
+
+.display7{
+   background-color:#DDD277;
+   display:flex;
+   padding:20px;
+   justify-content: space-around;
+}
+.display7 .item{
+   font-size:40px;
+   border:1px solid black;
+   padding:30px;
+   width:100px;
+   align-item:center;
+    
+}
+
+
+.display8{
+   background-color:#DEE277;
+   display:flex;
+   padding:20px;
+   justify-content: space-between;
+}
+.display8 .item{
+   font-size:40px;
+   border:1px solid black;
+   padding:30px;
+   width:100px;
+   align-item:center;
+    
+}
+
+
+.display9{
+   background-color:#DEf777;
+   display:flex;
+   padding:20px;
+   align-items: center;
+      height:500px;
+
+}
+.display9 .item{
+   font-size:40px;
+   border:1px solid black;
+   padding:30px;
+   width:100px;
+
+    
+}
+
+
+.display10{
+   background-color:#ddd;
+   display:flex;
+   padding:20px;
+   align-items: center;
+   justify-content:center;
+      height:500px;
+
+}
+.display10 .item{
+   font-size:40px;
+   border:1px solid black;
+   padding:30px;
+   width:100px;
+
+    
+}

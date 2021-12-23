@@ -1,0 +1,125 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body{
+  font-family: arial;
+}
+.marnsec {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 1000px;
+  align-items: center;
+}
+.continar{
+  width:40%;
+  height:800px;
+  align-items: center;
+ 
+}
+.subcon{
+  border: 1px solid #A9A9A9;
+  padding: 50px;
+  padding-bottom: 125px;
+  border-radius: 5px;
+}
+.maintemplate {
+  
+  text-align: center;
+}
+.maintemplate img {
+  width: 150px;
+  padding: 10px 0px 25px 0px;
+}
+.maintemplate h1 {
+  font-size: 40px;
+  font-family: arial;
+  font-weight: 100;
+}
+.srebar {
+  width: 67%;
+  margin: auto;
+  margin-top: 20px;
+  color: #555;
+
+}
+.srebar i {
+  padding: 0px 6px;
+}
+.srebar span {
+  font-size: 18px;
+}
+.passsec input {
+  padding: 20px;
+  width: 100%;
+  font-size: 20px;
+  margin-top: 80px;
+}
+.forgate {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  height: 50px;
+  align-items: center;
+}
+.forgate a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #3879D9;
+  font-weight: 600;
+}
+.larnmore {
+  font-size: 18px;
+  color: #555;
+  margin-top: 50px;
+}
+.larnmoreBTN {
+  display: block;
+  line-height: 35px;
+  text-decoration: none;
+  color: #3879DA;
+  font-weight: 700;
+}
+.Account {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  align-items: center;
+  margin-top: 50px;
+}
+.Account a {
+  text-decoration: none;
+  font-size: 17px;
+  color: #5D79D9;
+  font-weight: 700;
+}
+.nexe {
+  width: 100px;
+  text-align: center;
+  padding: 15px;
+  background: #3879D9;
+  color: white;
+  font-weight: bold;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  height: 80px;
+  align-items: center;
+  color: #555;
+}
+.last-child ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 210px;
+}
+.last-child ul li {
+  color: #666;
+}
+.something i {
+  padding-left: 10px;
+}

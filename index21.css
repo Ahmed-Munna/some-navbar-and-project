@@ -1,0 +1,94 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+nav{
+   background:#222;
+   width:100%;
+
+   
+}
+.containar{
+   display:flex;
+   justify-content: space-between;
+   width: 90%;
+   margin:auto;
+   align-items: center;
+ 	
+}
+.slaiderbar{
+	width:100%;
+}
+.containar i{
+	color:white;
+	font-size:30px;
+	display:none;
+}
+.check{
+	display:none;
+}
+.containar .slaiderbar ul{
+	list-style:none;
+	display:flex;
+	width: 50%;
+	justify-content:space-between;     
+}
+.containar .slaiderbar ul li{
+	font-size:20px;
+	display:inline-block;
+
+}
+.containar .slaiderbar ul li a{
+	text-decoration:none;
+	color:white;
+	text-transform:uppercase;
+	font-family:arial black;
+	padding: 20px 0;
+	display:inline-block;
+	transition: 0.4s;
+}
+@media (max-width:768px){
+
+
+.containar i{
+	display:flex;
+	padding:20px 0px;
+	align-items:flex-end;
+    
+}
+
+.slaiderbar{
+	position:fixed;
+	top:8.5%;
+	left:0;
+	width:60%;
+	overflow:hidden;
+	background:#444;
+	height:100vh;
+	transition:0.5s;
+	
+}
+.slaiderbar ul li{
+	display:flex;
+	flex-direction:column;
+}
+.slaiderbar ul{
+	display: flex;
+    flex-direction: column;
+    margin:auto;
+}
+
+.containar .slaiderbar ul li a:hover{
+	color:#009AB4;
+}
+
+.checked : checked~ul{
+	display: block;
+}
+
+
+
+}
+
